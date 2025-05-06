@@ -15,7 +15,7 @@ const Cta = () => {
         </div>
         <div className="rightSide hidden sm:flex justify-center items-center ">
           <img
-            src="src/assets/Illustration.png"
+            src="/Illustration.png"
             alt="illustration"
             className="w-full object-cover"
           />
