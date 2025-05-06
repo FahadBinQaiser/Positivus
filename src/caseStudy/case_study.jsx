@@ -1,12 +1,12 @@
 const CaseStudy = () => {
   return (
     <>
-      <div className="bg-white mx-auto max-w-5xl py-20">
+      <div className="bg-white px-0 sm:px-10 mx-auto max-w-5xl py-20">
         <div className="row_line flex flex-col sm:flex-row justify-start items-center space-x-10">
           <h1 className="bg-lime-300 rounded-sm font-medium text-2xl p-1">
             Case Studies
           </h1>
-          <p className="font-normal text-center sm:text-left pt-4 sm:pt-0">
+          <p className="font-normal px-6 sm:px-0 text-center sm:text-left pt-4 sm:pt-0">
             Explore Real-Life Examples of Our Proven Digital Marketing{' '}
             <span className="sm:block">Success through Our Case Studies</span>
           </p>
