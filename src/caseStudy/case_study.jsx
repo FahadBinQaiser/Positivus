@@ -12,8 +12,8 @@ const CaseStudy = () => {
           </p>
         </div>
         {/* Mobile code for case studies */}
-        <div className="mobileCodeForCaseStudies flex md:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 px-6 sm:px-0 overflow-x-auto overflow-hidden no-scrollbar">
-          <div className="flex flex-row gap-6 w-max">
+        <div className="mobileCodeForCaseStudies flex justify-center md:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 sm:px-0">
+          <div className="flex flex-col gap-6 w-max">
             <div className="min-w-[300px] max-w-xs bg-[#191A23] p-6 rounded-4xl flex flex-col border border-gray-700">
               <p>
                 For a local restaurant, we implemented a targeted PPC campaign
