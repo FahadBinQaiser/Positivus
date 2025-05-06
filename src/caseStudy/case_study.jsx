@@ -1,7 +1,7 @@
 const CaseStudy = () => {
   return (
     <>
-      <div className="bg-white px-0 sm:px-10 mx-auto max-w-5xl py-20">
+      <div className="bg-white font-['Space_Grotesk'] px-0 sm:px-10 mx-auto max-w-5xl py-20">
         <div className="row_line flex flex-col sm:flex-row justify-start items-center space-x-10">
           <h1 className="bg-lime-300 rounded-sm font-medium text-2xl p-1">
             Case Studies
@@ -12,7 +12,7 @@ const CaseStudy = () => {
           </p>
         </div>
         {/* Mobile code for case studies */}
-        <div className="mobileCodeForCaseStudies flex sm:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 px-4 overflow-x-auto no-scrollbar">
+        <div className="mobileCodeForCaseStudies flex md:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 px-4 overflow-x-auto overflow-hidden no-scrollbar">
           <div className="flex flex-row gap-6 w-max">
             <div className="min-w-[300px] max-w-xs bg-[#191A23] p-6 rounded-4xl flex flex-col border border-gray-700">
               <p>
@@ -56,7 +56,7 @@ const CaseStudy = () => {
           </div>
         </div>
         {/* Desktop code for case studies */}
-        <div className="container_box hidden text-white w-full my-14 rounded-3xl bg-[#191A23] mx-auto max-w-5xl sm:flex flex-row items-start px-8 py-14">
+        <div className="container_box hidden text-white w-full my-14 rounded-3xl bg-[#191A23] mx-auto max-w-5xl md:flex flex-row items-start px-8 py-14">
           <div className="contentPrimary flex flex-col px-10">
             <p className="text-pretty">
               For a local restaurant, we implemented a targeted PPC campaign
