@@ -8,11 +8,11 @@ const CaseStudy = () => {
           </h1>
           <p className="font-normal px-6 sm:px-0 text-center sm:text-left pt-4 sm:pt-0">
             Explore Real-Life Examples of Our Proven Digital Marketing{' '}
-            <span className="sm:block">Success through Our Case Studies</span>
+            <span className="md:block">Success through Our Case Studies</span>
           </p>
         </div>
         {/* Mobile code for case studies */}
-        <div className="mobileCodeForCaseStudies flex md:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 px-4 overflow-x-auto overflow-hidden no-scrollbar">
+        <div className="mobileCodeForCaseStudies flex md:hidden rounded-3xl text-white max-w-6xl mx-auto py-14 px-4 sm:px-0 overflow-x-auto overflow-hidden no-scrollbar">
           <div className="flex flex-row gap-6 w-max">
             <div className="min-w-[300px] max-w-xs bg-[#191A23] p-6 rounded-4xl flex flex-col border border-gray-700">
               <p>
