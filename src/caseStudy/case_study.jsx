@@ -1,7 +1,7 @@
 const CaseStudy = () => {
   return (
     <>
-      <div className="bg-white font-['Space_Grotesk'] px-0 sm:px-10 lg:px-0 mx-auto max-w-5xl py-20">
+      <div className="bg-white font-['Space_Grotesk'] px-0 sm:px-10 xl:px-0 mx-auto max-w-5xl py-20">
         <div className="row_line flex flex-col sm:flex-row justify-start items-center space-x-10">
           <h1 className="bg-lime-300 rounded-sm font-medium text-2xl p-1">
             Case Studies
