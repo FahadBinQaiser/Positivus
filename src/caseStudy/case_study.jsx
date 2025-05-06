@@ -68,7 +68,7 @@ const CaseStudy = () => {
               className="flex flex-row items-center text-lime-300 font-medium text-sm mt-4"
             >
               Learn more
-              <img src="src/assets/Arrow-1.png" className="px-2" alt="" />
+              <img src="/Arrow-1.png" className="px-2" alt="" />
             </a>
           </div>
 
@@ -85,7 +85,7 @@ const CaseStudy = () => {
               className="flex flex-row items-center text-lime-300 font-medium text-sm mt-4"
             >
               Learn more
-              <img src="src/assets/Arrow-1.png" className="px-2" alt="" />
+              <img src="/Arrow-1.png" className="px-2" alt="" />
             </a>
           </div>
           <div className="line h-44 w-0.5 bg-gray-400 mx-auto"></div>
@@ -100,7 +100,7 @@ const CaseStudy = () => {
               className="flex flex-row items-center text-lime-300 font-medium text-sm mt-4"
             >
               Learn more
-              <img src="src/assets/Arrow-1.png" className="px-2" alt="" />
+              <img src="/Arrow-1.png" className="px-2" alt="" />
             </a>
           </div>
         </div>
