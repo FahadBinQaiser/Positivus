@@ -8,7 +8,7 @@ const Navbar = () => {
     const closeMenu = () => setIsOpen(false);
 
     return (
-        <div className="space-grotesk pt-10 max-w-5xl mx-auto px-4">
+        <div className="navbar space-grotesk pt-10 max-w-5xl mx-auto px-8">
             <div className="flex justify-between items-center">
                 <div className="flex gap-3 items-center">
                     <img
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="md:hidden">
-                    <button onClick={toggleMenu}>
+                    <button className="cursor-pointer" onClick={toggleMenu}>
                         {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
                     </button>
                 </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                     <a href="#blog" onClick={closeMenu}>Blog</a>
                     <button
                         onClick={closeMenu}
-                        className="border border-black px-6 py-2 rounded-lg hover:bg-black hover:text-white transition-all mt-2"
+                        className="border cursor-pointer border-black px-6 py-2 rounded-lg hover:bg-black hover:text-white transition-all mt-2"
                     >
                         Request a quote
                     </button>
