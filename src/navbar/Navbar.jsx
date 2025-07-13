@@ -8,7 +8,7 @@ const Navbar = () => {
     const closeMenu = () => setIsOpen(false);
 
     return (
-        <div className="navbar space-grotesk pt-10 max-w-5xl mx-auto px-8">
+        <div className="navbar space-grotesk pt-10 max-w-5xl mx-auto px-8 sm:px-0">
             <div className="flex justify-between items-center">
                 <div className="flex gap-3 items-center">
                     <img
