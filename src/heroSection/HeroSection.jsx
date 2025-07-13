@@ -3,9 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="px-8 sm:px-0 max-w-5xl py-16 mx-auto space-grotesk">
-      {/* Top Section */}
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-        {/* Left Content */}
         <div className="flex-1">
           <h1 className="text-4xl sm:text-5xl font-semibold leading-tight mb-6">
             Navigating the <br />
@@ -22,10 +20,9 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* Right Image */}
         <div className="flex-1">
           <img
-            src="/speaker.png" // Replace with your actual path
+            src="/speaker.png" 
             alt="Digital Marketing Illustration"
             className="w-full max-w-md mx-auto"
           />
