@@ -19,7 +19,6 @@ const Navbar = () => {
     return (
         <div className="navbar space-grotesk pt-10 max-w-5xl mx-auto px-8 sm:px-0">
             <div className="flex justify-between items-center">
-                {/* Logo */}
                 <div className="flex gap-3 items-center">
                     <img
                         src="/Star.png"
@@ -29,7 +28,6 @@ const Navbar = () => {
                     <h1 className="text-3xl font-semibold">Positivus</h1>
                 </div>
 
-                {/* Desktop Links */}
                 <div className="hidden md:flex gap-8 text-md">
                     <a href="#about" className="hover:text-gray-600">About us</a>
                     <a href="#services" className="hover:text-gray-600">Services</a>
@@ -44,7 +42,6 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Mobile Hamburger */}
                 <div className="md:hidden">
                     <button className="cursor-pointer z-50" onClick={toggleMenu}>
                         <FiMenu size={24} />
@@ -52,10 +49,8 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Fullscreen Mobile Menu */}
             {isOpen && (
                 <div className="fixed inset-0 z-40 bg-white flex flex-col items-start px-6 py-6 gap-6 text-md">
-                    {/* Top Row: Logo + Close */}
                     <div className="w-full flex justify-between items-center">
                         <div className="flex gap-3 items-center">
                             <img
@@ -70,14 +65,12 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    {/* Links */}
                     <a href="#about" onClick={closeMenu} className="pl-2">About us</a>
                     <a href="#services" onClick={closeMenu} className="pl-2">Services</a>
                     <a href="#use-cases" onClick={closeMenu} className="pl-2">Use Cases</a>
                     <a href="#pricing" onClick={closeMenu} className="pl-2">Pricing</a>
                     <a href="#blog" onClick={closeMenu} className="pl-2">Blog</a>
 
-                    {/* Button */}
                     <button
                         onClick={closeMenu}
                         className="border cursor-pointer border-black px-6 py-2 mt-2 rounded-lg hover:bg-black hover:text-white transition-all"
