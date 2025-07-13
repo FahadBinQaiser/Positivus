@@ -3,31 +3,31 @@ import React from "react";
 const services = [
   {
     title: "Search engine optimization",
-    img: "/services/seo.png",
+    img: "/services/tokyo.png",
     bg: "bg-[#F3F3F3]",
     textColor: "text-black",
   },
   {
     title: "Pay-per-click advertising",
-    img: "/services/ppc.png",
+    img: "/services/tokyo-selecting.png",
     bg: "bg-[#B9FF66]",
     textColor: "text-black",
   },
   {
     title: "Social Media Marketing",
-    img: "/services/social.png",
+    img: "/services/emoticon.png",
     bg: "bg-[#191A23]",
     textColor: "text-white",
   },
   {
     title: "Email Marketing",
-    img: "/services/email.png",
+    img: "/services/sending-messages.png",
     bg: "bg-[#F3F3F3]",
     textColor: "text-black",
   },
   {
     title: "Content Creation",
-    img: "/services/content.png",
+    img: "/services/windows.png",
     bg: "bg-[#B9FF66]",
     textColor: "text-black",
   },
