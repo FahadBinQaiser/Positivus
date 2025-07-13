@@ -31,16 +31,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-
-      {/* Client Logos */}
-      <div className="flex flex-wrap justify-center md:justify-between gap-8 mt-20 items-center">
-        <img src="/logos/amazon.png" alt="Amazon" className="h-6" />
-        <img src="/logos/dribbble.png" alt="Dribbble" className="h-6" />
-        <img src="/logos/hubspot.png" alt="HubSpot" className="h-6" />
-        <img src="/logos/notion.png" alt="Notion" className="h-6" />
-        <img src="/logos/netflix.png" alt="Netflix" className="h-6" />
-        <img src="/logos/zoom.png" alt="Zoom" className="h-6" />
-      </div>
     </section>
   );
 };
