@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <LogoSection />
       <HeroSection />
+      <LogoSection />
       <Cta />
       <CaseStudy />
     </>
