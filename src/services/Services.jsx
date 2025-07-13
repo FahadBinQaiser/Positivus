@@ -42,7 +42,6 @@ const services = [
 const Services = () => {
   return (
     <section className="px-8 sm:px-0 py-16 max-w-5xl mx-auto space-grotesk">
-      {/* Heading */}
       <div className="mb-10 flex gap-3 items-center">
         <h2 className="text-2xl sm:text-3xl font-semibold inline-block bg-[#B9FF66] px-2 py-1 rounded">
           Services
@@ -52,7 +51,6 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {services.map((service, index) => (
           <div
@@ -66,7 +64,6 @@ const Services = () => {
               <img src={service.img} alt={service.title} className="w-24 sm:w-28 mt-2" />
             </div>
 
-            {/* Learn more */}
             <div className="flex items-center gap-2 mt-6">
               <div className="w-6 h-6 rounded-full bg-white text-black flex items-center justify-center">
                 <span className="text-lg">↗</span>
