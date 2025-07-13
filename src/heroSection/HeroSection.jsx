@@ -25,7 +25,7 @@ const HeroSection = () => {
         {/* Right Image */}
         <div className="flex-1">
           <img
-            src="/hero-image.png" // Replace with your actual path
+            src="/speaker.png" // Replace with your actual path
             alt="Digital Marketing Illustration"
             className="w-full max-w-md mx-auto"
           />
