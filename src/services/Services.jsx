@@ -39,15 +39,15 @@ const services = [
   },
 ];
 
-const ServicesSection = () => {
+const Services = () => {
   return (
-    <section className="px-6 py-16 max-w-7xl mx-auto space-grotesk">
+    <section className="px-8 sm:px-0 py-16 max-w-5xl mx-auto space-grotesk">
       {/* Heading */}
-      <div className="mb-10">
+      <div className="mb-10 flex gap-3 items-center">
         <h2 className="text-2xl sm:text-3xl font-semibold inline-block bg-[#B9FF66] px-2 py-1 rounded">
           Services
         </h2>
-        <p className="text-sm text-gray-700 mt-2 max-w-2xl">
+        <p className="text-sm text-balance text-gray-700 mt-2 max-w-2xl">
           At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
         </p>
       </div>
@@ -80,4 +80,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default Services;
