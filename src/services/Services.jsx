@@ -55,7 +55,7 @@ const Services = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className={`${service.bg} ${service.textColor} rounded-2xl p-6 shadow-md flex flex-col justify-between min-h-[230px]`}
+            className={`${service.bg} ${service.textColor} rounded-4xl border border-b-5 border-black p-6 shadow-md flex flex-col justify-between min-h-[230px]`}
           >
             <div>
               <h3 className="text-lg font-semibold inline-block bg-white/90 px-2 py-1 rounded leading-snug mb-4">
