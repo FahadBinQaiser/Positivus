@@ -79,7 +79,7 @@ const Services = () => {
               />
                </div>
 
-            <div className="flex items-center gap-2 mt-8">
+            <div className="flex cursor-pointer items-center gap-2 mt-8">
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black flex items-center justify-center">
                 <img
                   src="/Arrow-1.png"
