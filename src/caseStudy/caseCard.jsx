@@ -9,7 +9,7 @@ const CaseCard = ({text, isMobile}) => {
         }`}
       >
         Learn more
-          <img src="src/assets/Arrow-1.png" className="px-2" alt="Arrow" />
+          <img src="/Arrow-1.png" className="px-2" alt="Arrow" />
       </a>
     </div>
     )
