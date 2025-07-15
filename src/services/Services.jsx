@@ -62,20 +62,22 @@ const Services = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className={`${service.bg} ${service.textColor} rounded-[20px] border border-black border-b-[4px] p-6 flex flex-col justify-between min-h-[230px] shadow-sm`}
+            className={`${service.bg} ${service.textColor} rounded-4xl border border-black border-b-[6px] flex flex-col justify-between max-w-[600px] p-8 min-h-[310px] shadow-sm`}
           >
-            <div className="flex items-start justify-between">
+            <div className="flex items-start pb-4 justify-between">
               <h3
-                className={`text-lg font-semibold leading-tight ${service.tagBg} text-black px-2 py-[2px] rounded max-w-[70%]`}
+                className={`text-2xl font-semibold leading-tight ${service.tagBg} text-black px-2 py-[2px] rounded max-w-fit`}
               >
                 {service.title}
               </h3>
-                <img
+            </div>
+             <div className="flex justify-end items-end h-full">
+                 <img
                 src={service.img}
                 alt={service.title}
                 className="w-46 object-cover ml-2"
               />
-            </div>
+               </div>
 
             <div className="flex items-center gap-2 mt-8">
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black flex items-center justify-center">
