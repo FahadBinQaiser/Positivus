@@ -30,7 +30,7 @@ const processSteps = [
 ];
 
 const WorkingProcess = () => {
-  const [activeIndex, setActiveIndex] = useState(0); // First one open
+  const [activeIndex, setActiveIndex] = useState(0); 
 
   const toggleIndex = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
@@ -38,7 +38,6 @@ const WorkingProcess = () => {
 
   return (
     <section className="max-w-5xl mx-auto px-4 sm:px-0 py-20 font-['Space_Grotesk']">
-      {/* Section Header */}
       <div className="mb-10 flex flex-col sm:flex-row sm:items-center gap-3">
         <h2 className="text-2xl sm:text-3xl font-semibold bg-[#B9FF66] px-2 py-1 rounded w-fit">
           Our Working Process
@@ -51,7 +50,6 @@ const WorkingProcess = () => {
         </p>
       </div>
 
-      {/* Accordion */}
       <div className="flex flex-col gap-4">
         {processSteps.map((item, index) => {
           const isOpen = activeIndex === index;
