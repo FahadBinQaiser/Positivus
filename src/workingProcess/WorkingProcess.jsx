@@ -37,14 +37,17 @@ const WorkingProcess = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-0 py-20 font-['Space_Grotesk']">
+    <section className="max-w-5xl mx-auto px-4 sm:px-0 py-20 font-['Space_Grotesk']">
       {/* Section Header */}
       <div className="mb-10 flex flex-col sm:flex-row sm:items-center gap-3">
         <h2 className="text-2xl sm:text-3xl font-semibold bg-[#B9FF66] px-2 py-1 rounded w-fit">
           Our Working Process
         </h2>
         <p className="text-sm text-gray-700 sm:ml-4 max-w-md">
-          Step-by-Step Guide to Achieving Your Business Goals
+          Step-by-Step Guide to Achieving 
+          <span className="sm:block">
+            Your Business Goals
+          </span>
         </p>
       </div>
 
