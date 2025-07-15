@@ -16,7 +16,6 @@ const data = [
 const CaseStudy = () => {
   return (
     <div className="bg-white font-['Space_Grotesk'] px-4 xl:px-8 mx-auto max-w-5xl py-20">
-      {/* Section Header */}
       <div className="flex flex-col sm:flex-row justify-start items-center sm:space-x-10">
         <h1 className="bg-lime-300 rounded-sm font-medium text-2xl p-1">
           Case Studies
@@ -27,7 +26,6 @@ const CaseStudy = () => {
         </p>
       </div>
 
-      {/* Mobile - Horizontal Scrollable Row */}
       <div className="flex md:hidden overflow-x-auto no-scrollbar gap-4 py-14">
         <div className="flex flex-row gap-4 w-max">
           {data.map((item, index) => (
@@ -47,7 +45,6 @@ const CaseStudy = () => {
         </div>
       </div>
 
-      {/* Desktop Grid Layout */}
       <div className="hidden md:flex max-w-5xl m-auto bg-[#191A23] text-white w-full my-14 rounded-3xl px-8 py-14">
         {data.map((item, index) => (
           <React.Fragment key={index}>
