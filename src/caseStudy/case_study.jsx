@@ -15,7 +15,7 @@ const data = [
 
 const CaseStudy = () => {
   return (
-    <div className="bg-white font-['Space_Grotesk'] px-4 xl:px-8 mx-auto max-w-5xl py-20">
+    <div className="bg-white font-['Space_Grotesk'] px-4 sm:px-0 mx-auto max-w-5xl py-20">
       <div className="flex flex-col sm:flex-row justify-start items-center sm:space-x-10">
         <h1 className="bg-lime-300 rounded-sm font-medium text-2xl p-1">
           Case Studies
