@@ -5,6 +5,7 @@ import Navbar from './navbar/Navbar';
 import HeroSection from './heroSection/HeroSection';
 import LogoSection from './logoSection/LogoSection'; 
 import Services from './services/Services';
+import WorkingProcess from './workingProcess/WorkingProcess';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Cta />
       <CaseStudy />
+      <WorkingProcess />
     </>
   );
 }
