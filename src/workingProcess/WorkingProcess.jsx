@@ -71,7 +71,7 @@ const WorkingProcess = () => {
             >
               <button
                 onClick={() => toggleIndex(index)}
-                className="flex items-center justify-between w-full px-6 py-6"
+                className="flex cursor-pointer items-center justify-between w-full px-6 py-6"
               >
                 <div className="flex items-center gap-4 text-left">
                   <span className="text-xl sm:text-2xl font-semibold">
@@ -87,7 +87,7 @@ const WorkingProcess = () => {
               </button>
 
               <div
-                className={`transition-all duration-500 ease-in-out px-6 ${
+                className={`transition-all cursor-pointer duration-500 ease-in-out px-6 ${
                   isOpen
                     ? "max-h-60 opacity-100 translate-y-0"
                     : "max-h-0 opacity-0 -translate-y-2"
