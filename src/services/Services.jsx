@@ -48,7 +48,6 @@ const services = [
 const Services = () => {
   return (
     <section className="px-6 sm:px-0 pt-14 max-w-5xl mx-auto space-grotesk">
-      {/* Section Heading */}
       <div className="mb-10 flex flex-col sm:flex-row sm:items-center gap-3">
         <h2 className="text-2xl sm:text-3xl font-semibold bg-[#B9FF66] px-2 py-1 rounded">
           Services
@@ -59,30 +58,25 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {services.map((service, index) => (
           <div
             key={index}
             className={`${service.bg} ${service.textColor} rounded-[20px] border border-black border-b-[4px] p-6 flex flex-col justify-between min-h-[230px] shadow-sm`}
           >
-            {/* Top: Title + Image */}
             <div className="flex items-start justify-between">
               <h3
                 className={`text-lg font-semibold leading-tight ${service.tagBg} text-black px-2 py-[2px] rounded max-w-[70%]`}
               >
                 {service.title}
               </h3>
-              <div className="flex items-end  justify-end">
                 <img
                 src={service.img}
                 alt={service.title}
                 className="w-46 object-cover ml-2"
               />
-              </div>
             </div>
 
-            {/* Bottom: Learn more */}
             <div className="flex items-center gap-2 mt-8">
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-black flex items-center justify-center">
                 <img
