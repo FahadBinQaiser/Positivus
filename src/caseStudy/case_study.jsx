@@ -25,14 +25,12 @@ const CaseStudy = () => {
           <span className="md:block">Success through Our Case Studies</span>
         </p>
       </div>
-      {/* Mobile View */}
       <div className="flex md:hidden flex-col items-center gap-6 text-white py-14 px-6">
         {data.map((item, index) => (
           <CaseCard key={index} text={item.case} isMobile={true} />
         ))}
       </div>
 
-      {/* Desktop View */}
       <div className="hidden md:flex max-w-5xl m-auto bg-[#191A23] text-white w-full my-14 rounded-3xl px-8 py-14">
         {data.map((item, index) => (
             <React.Fragment key={index}>
